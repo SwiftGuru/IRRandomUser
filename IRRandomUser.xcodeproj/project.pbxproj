@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		831362E92078943C00B51B5D /* RandomUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831362E82078943C00B51B5D /* RandomUser.swift */; };
 		83C37A3B207823FD002F7C33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C37A3A207823FD002F7C33 /* AppDelegate.swift */; };
 		83C37A3D207823FD002F7C33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C37A3C207823FD002F7C33 /* ViewController.swift */; };
 		83C37A40207823FD002F7C33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C37A3E207823FD002F7C33 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		83C37A48207823FF002F7C33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C37A46207823FF002F7C33 /* LaunchScreen.storyboard */; };
 		83C37A53207823FF002F7C33 /* IRRandomUserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C37A52207823FF002F7C33 /* IRRandomUserTests.swift */; };
 		83C37A5E207823FF002F7C33 /* IRRandomUserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C37A5D207823FF002F7C33 /* IRRandomUserUITests.swift */; };
+		83C37A6C20782EB9002F7C33 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C37A6B20782EB9002F7C33 /* CustomCell.swift */; };
+		83C37A6E2078527C002F7C33 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C37A6D2078527C002F7C33 /* SettingsViewController.swift */; };
+		83C37A7020785730002F7C33 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C37A6F20785730002F7C33 /* UserDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		831362E82078943C00B51B5D /* RandomUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUser.swift; sourceTree = "<group>"; };
 		83C37A37207823FD002F7C33 /* IRRandomUser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IRRandomUser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83C37A3A207823FD002F7C33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83C37A3C207823FD002F7C33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,9 @@
 		83C37A59207823FF002F7C33 /* IRRandomUserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IRRandomUserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83C37A5D207823FF002F7C33 /* IRRandomUserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRRandomUserUITests.swift; sourceTree = "<group>"; };
 		83C37A5F207823FF002F7C33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C37A6B20782EB9002F7C33 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		83C37A6D2078527C002F7C33 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		83C37A6F20785730002F7C33 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +109,15 @@
 			children = (
 				83C37A3A207823FD002F7C33 /* AppDelegate.swift */,
 				83C37A3C207823FD002F7C33 /* ViewController.swift */,
+				83C37A6B20782EB9002F7C33 /* CustomCell.swift */,
+				83C37A6D2078527C002F7C33 /* SettingsViewController.swift */,
 				83C37A3E207823FD002F7C33 /* Main.storyboard */,
 				83C37A44207823FF002F7C33 /* Assets.xcassets */,
 				83C37A46207823FF002F7C33 /* LaunchScreen.storyboard */,
 				83C37A49207823FF002F7C33 /* Info.plist */,
 				83C37A41207823FD002F7C33 /* IRRandomUser.xcdatamodeld */,
+				83C37A6F20785730002F7C33 /* UserDetailViewController.swift */,
+				831362E82078943C00B51B5D /* RandomUser.swift */,
 			);
 			path = IRRandomUser;
 			sourceTree = "<group>";
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				831362E92078943C00B51B5D /* RandomUser.swift in Sources */,
 				83C37A3D207823FD002F7C33 /* ViewController.swift in Sources */,
 				83C37A3B207823FD002F7C33 /* AppDelegate.swift in Sources */,
+				83C37A7020785730002F7C33 /* UserDetailViewController.swift in Sources */,
+				83C37A6C20782EB9002F7C33 /* CustomCell.swift in Sources */,
+				83C37A6E2078527C002F7C33 /* SettingsViewController.swift in Sources */,
 				83C37A43207823FD002F7C33 /* IRRandomUser.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
